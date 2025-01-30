@@ -19,7 +19,7 @@ if __name__ == "__main__":
         self,
         chat_id: Union[int, str],
         limit: int,
-        offset: int = 0,
+        offset: int = 25320,
     ) -> Optional[AsyncGenerator["types.Message", None]]:
         """Iterate through a chat sequentially.
         This convenience method does the same as repeatedly calling :meth:`~pyrogram.Client.get_messages` in a loop, thus saving
